@@ -1,5 +1,18 @@
 <?php
+
+
+/**
+ * LogicalDeleteBehavior
+ */
+/**
+ * LogicalDeleteBehavior code license:
+ *
+ * @copyright Copyright (C) 2010 saku All rights reserved.
+ * @since CakePHP(tm) v 1.3
+ * @license http://www.opensource.org/licenses/mit-license.php The MIT License
+ */
 class LogicalDeleteBehavior extends ModelBehavior { 
+    const VERSION = '0.5';
     var $settings = array();
     
     //-------------------------------------------------------------
